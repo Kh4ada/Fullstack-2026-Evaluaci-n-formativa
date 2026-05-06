@@ -15,7 +15,7 @@ import java.util.List;
 public class PacienteServiceImpl implements PacienteService {
     @Autowired
     private PacienteRepository pacienteRepository;
-
+///  sejajasasjasjkasjk
     @Transactional(readOnly = true)
     @Override
     public List<Paciente> findAll() {
